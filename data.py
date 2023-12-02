@@ -82,10 +82,16 @@ scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
 
+model = KNeighborsClassifier(n_neighbors=i)
+model.fit(X_train, y_train)
+print(f'{i}: {model.score(X_test, y_test)}')
+
 # Create and train the model
-model = KNeighborsClassifier(n_neighbors=3)
+model = KNeighborsClassifier(n_neighbors=i)
 model.fit(X_train, y_train)
 
 # Check the accuracy of the model
 accuracy = model.score(X_test, y_test)
 print(f'Accuracy: {accuracy * 100}%')
+
+    
