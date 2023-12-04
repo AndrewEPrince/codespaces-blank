@@ -5,3 +5,7 @@
 <a target="_blank" href="https://colab.research.google.com/github/AndrewEPrince/codespaces-blank/blob/948f84f280930466452339d92641f42663eee881/models/ballsnet/BallsNetUI.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+
+<p align="center">
+  <img src="models/ballsnet/ballsnet_plot.png" title="hover text">
+</p>
