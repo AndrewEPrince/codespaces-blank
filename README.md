@@ -7,5 +7,5 @@
 </a>
 
 <p align="center">
-  <img src="models/ballsnet/ballsnet_plot.png" title="hover text">
+  <img src="models/ballsnet/Asset 1.png" title="hover text">
 </p>
