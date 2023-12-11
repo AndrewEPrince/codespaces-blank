@@ -1,7 +1,7 @@
 # Deep Learning Tools for Rocket League
 ## BallsNet
 <p align="center">
-  <img src="models/ballsnet/ballsnet_model_diagram.png">
+  <img src="models/ballsnet/ballsnet_74.png">
 </p>
 
 - Takes in group data and predicts the rank of players in the group.
